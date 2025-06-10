@@ -23,7 +23,7 @@ body {
 }
 
 .section {
-    padding-top: 5rem;
+    padding-top: 28rem;
 }
 
 /* Navigation Styles */
@@ -138,4 +138,5 @@ h3 {
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
     transform: rotateY(180deg);
+    border: gold 2px solid;
 }
