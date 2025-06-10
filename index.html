@@ -52,7 +52,7 @@
                         <a class="nav-link" href="#footer">Contact</a>
                     </li>
                     <li id="dark-mode-logo" class="nav-item">
-                        <button class="nav-link mx-3" href="#"><i class="fa-solid fa-moon"></i></button>
+                        <button id="dark-mode-toggle" class="nav-link mx-3 moon" href="#"><i id=#dark-mode class="fa-solid fa-moon"></i></button>
                     </li>
                 </ul>
             </div>
@@ -242,16 +242,31 @@
         </div>
 
         <div class="container section">
-            <div id="portfolio" class="lorem-filler mt-5">
-                <h3>PORTFOLIO</h3>
-
+            <div id="portfolio" class="my-5">
+                <h3 class="my-5">PORTFOLIO & CLIENTS</h3>
+                <div id="carousel-portfolio" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner justify-content-center align-items-center">
+                        <div class="carousel-item active d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/portfolio-images/MS-Software-Engineering-AG.png"
+                                class="w-35 portfolio-logo"
+                                alt="Logo of MS Software Engineering AG (Switzerland)">
+                        </div>
+                        <div class="carousel-item d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/logo/icons8-c-sharp-logo-500.png"
+                                class="w-35 portfolio-logo"
+                                alt="Logo of MS Software Engineering AG (Switzerland)">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
     <!-- Footer Section -->
     <footer id="footer section" class="mt-auto container-fluid" aria-label="Website Footer">
         <div class="container text-center">
-            FOOTER
+            <div>
+
+            </div>
         </div>
     </footer>
 
@@ -263,6 +278,8 @@
         crossorigin="anonymous"></script>
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/8669560caa.js" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+     <script src="./assets/javascript/script.js"></script>
 </body>
 
 </html>
