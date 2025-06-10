@@ -23,12 +23,12 @@ body {
 }
 
 .section {
-    padding-top: 28rem;
+    padding-top: 3rem;
 }
 
 /* Navigation Styles */
 #navbar {
-    padding-bottom: 1.2rem;
+    padding-bottom: 0.4rem;
     background-color: var(--primary-background-color);
 }
 
@@ -64,12 +64,12 @@ header {
 
 h1 {
     margin-bottom: 1rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #hero-logo {
-    height: 500px;
-    width: 500px;
+    max-height: 150px;
+    max-width: 150px;
 }
 
 /* Main Styles */
@@ -88,8 +88,8 @@ h3 {
 }
 
 #language-logo {
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
     color: var(--primary-background-color);
     opacity: 0.85;
 }
@@ -109,7 +109,7 @@ h3 {
     height: 100%;
     border-radius: 14px;
     text-align: center;
-    transition: transform 1s;
+    transition: transform 0.8s;
     transform-style: preserve-3d;
 }
 
@@ -138,5 +138,15 @@ h3 {
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
     transform: rotateY(180deg);
-    border: gold 2px solid;
+    border: #ffd700 2px solid;
+    box-shadow: 0 0 50px #ffd16688;
+}
+
+/* Media Queries */
+/* Tiny Screens < 576px */
+@media only screen and (max-width: 576px) {
+    #language-logo {
+        max-height: 12rem;
+        max-width: 12rem;
+    }
 }
