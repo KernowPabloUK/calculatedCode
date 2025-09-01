@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (child.classList.contains(darkModeON)) {
                 child.classList.remove(darkModeON);
                 child.classList.add(lightModeON);
-                cssVariables.style.setProperty('--primary-font-color', '#00000');
+                cssVariables.style.setProperty('--primary-font-color', '#000000');
                 cssVariables.style.setProperty('--primary-background-color', 'rgb(255, 255, 255, 1)');
 
 
