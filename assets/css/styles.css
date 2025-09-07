@@ -151,10 +151,18 @@ h3 {
     transform: rotateY(180deg);
 }
 
-.portfolio-logo {
+#ms-ag-logo {
     background-color: var(--primary-font-color);
+}
+
+.portfolio-logo {
     margin: 0 auto;
     object-fit: contain;
+}
+
+#portfolio-logos {
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Media Queries */
@@ -180,9 +188,5 @@ h3 {
     .portfolio-logo {
         max-height: 136px;
         max-width: 282px;
-    }
-    #portfolio-logos {
-        flex-direction: column;
-        align-items: center;
     }
 }
