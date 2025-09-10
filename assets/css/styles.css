@@ -76,7 +76,6 @@ h3 {
     max-width: 200px;
     color: var(--primary-background-color);
     background-color: var(--primary-font);
-    opacity: 0.85;
 }
 
 .flip-card {
